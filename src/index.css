@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #F5E4BC;
+    font-family: "General Sans", sans-serif;
+}
+  
+  @layer base {
+    @font-face {
+      font-family: "circular-web";
+      src: url("/fonts/circularweb-book.woff2") format("woff2");
+    }
+  
+    @font-face {
+      font-family: "general";
+      src: url("/fonts/general.woff2") format("woff2");
+    }
+  
+    @font-face {
+      font-family: "robert-medium";
+      src: url("/fonts/robert-medium.woff2") format("woff2");
+    }
+  
+    @font-face {
+      font-family: "robert-regular";
+      src: url("/fonts/robert-regular.woff2") format("woff2");
+    }
+  
+    @font-face {
+      font-family: "zentry";
+      src: url("/fonts/zentry-regular.woff2") format("woff2");
+    }
+
+    @font-face {
+        font-family: "Aladin";
+        src: url("/fonts/Aladin-Regular.ttf") format("ttf");
+      }
+  }
